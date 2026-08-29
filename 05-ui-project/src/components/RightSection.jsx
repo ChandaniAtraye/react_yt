@@ -1,9 +1,10 @@
 import React from 'react'
+import RightContent from './RightContent'
 
 const RightSection = () => {
   return (
-    <div className='bg-amber-200 h-full w-full'>
-        This is right side
+    <div className='w-full'>
+      <RightContent/>
     </div>
   )
 }
