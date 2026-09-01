@@ -1,12 +1,14 @@
 import React from 'react'
 import UseState from './components/UseState'
+import UseStateEx from './components/UseStateEx'
 
 
 
 const App = () => {
   return (
     <div>
-      <UseState/>
+      {/* <UseState/> */}
+      <UseStateEx/>
     </div>
   )
 }
