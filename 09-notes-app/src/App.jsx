@@ -71,10 +71,10 @@ const App = () => {
        {/* notes card  section*/}
       <div className=" lg:w-1/2 lg:border-l-2  overflow-auto  p-10">
         <h1 className='font-bold text-2xl '>Recent Notes</h1>
-        <div className='flex flex-wrap gap-5 justify-start items-center mt-5 '>
+        <div className='flex flex-wrap gap-5 justify-start items-center mt-5'>
           {task.map(function (elem, idx) {
 
-            return <div key={idx} className=" card pt-6 relative w-full sm:w-45 h-50  p-4 mt-2 rounded-2xl  text-black bg-cover bg-bottom  bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlM1LNDP-7nzJ8iIj91Ysvni7TOYk3JcQIHOk1LWJK9Q&s=10')]">
+            return <div key={idx} className=" card pt-6 relative w-full sm:w-50 h-50   p-4 mt-2 rounded-2xl  text-black bg-cover bg-bottom  bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlM1LNDP-7nzJ8iIj91Ysvni7TOYk3JcQIHOk1LWJK9Q&s=10')]">
 
               <h2 onClick={()=>{
                 deleteNote(idx)

@@ -1,6 +1,7 @@
 import React from 'react'
 import UseState from './components/UseState'
 import UseStateEx from './components/UseStateEx'
+import UseEffect_concept from './components/UseEffect_concept'
 
 
 
@@ -8,7 +9,8 @@ const App = () => {
   return (
     <div>
       {/* <UseState/> */}
-      <UseStateEx/>
+      {/* <UseStateEx/> */}
+      <UseEffect_concept/>
     </div>
   )
 }
